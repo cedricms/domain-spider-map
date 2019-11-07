@@ -61,7 +61,7 @@ public class DomainSpiderMapGeneratorTest {
     @Test
     public void generateGivenEmptyFileAndDestinationFileAndJpgThenEmptyFile() {
         // Given
-        String sourceDataFilePath = "./EmptyTest.json";
+        String sourceDataFilePath = "./test/EmptyTest.json";
         String imageDestinationFilePath = TARGET_TEST_PATH + "EmptyTestResult.jpg";
         ImageFileType imageFileType = ImageFileType.JPG;
         
